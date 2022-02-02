@@ -1,6 +1,26 @@
+/*font-family: 'Poiret One', cursive;
+font-family: 'Quicksand', sans-serif;*/
+
 .main-profile-picture {
   width: 275px;
   border-radius: 200px;
   border: 4px solid black;
-  border-color: black;
+  display: block;
+  margin-left: auto;
+}
+
+h1 {
+  font-family: Poiret One;
+  font-weight: bolder;
+  font-size: 80px;
+}
+
+h2 {
+  font-family: Quicksand;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: Quicksand;
+  font-weight: 300;
 }

@@ -69,6 +69,12 @@ h3 {
   font-size: 60px;
 }
 
-@media (max-width: 1200px) {
-  max-width: 1200px;
+.about-image {
+  height: 234px;
+  margin-top: 0;
+}
+
+@media (max-width: 576) {
+  .about-image {
+  }
 }

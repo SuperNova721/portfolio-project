@@ -6,6 +6,14 @@ font-family: 'Quicksand', sans-serif;*/
     rgb(0, 0, 0) 0%,
     rgb(35, 80, 90) 100%
   );
+  --secondary-gradient: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 0%,
+    rgb(35, 80, 90) 25%,
+    rgb(239, 248, 255) 75%
+  );
+  --primary-color: rgb(35, 80, 90);
+  --secondary-color: rgb(239, 248, 255);
 }
 .main-profile-picture {
   width: 275px;
@@ -26,6 +34,12 @@ h2 {
   font-family: Quicksand;
   font-weight: 500;
   margin-bottom: 0;
+  text-decoration: none;
+}
+p {
+  font-family: Quicksand;
+  font-size: 30px;
+  margin-bottom: 0;
 }
 
 h3 {
@@ -34,15 +48,16 @@ h3 {
 }
 
 .hero {
-  margin-top: 100px;
-  color: rgb(35, 80, 90);
+  margin-top: 40px;
+  color: var(--primary-color);
   background: var(--main-gradient);
+  padding-bottom: 20px;
   border-bottom: 20px solid black;
 }
 
 .title-content {
   margin-top: 73px;
-  color: aliceblue;
+  color: var(--secondary-color);
 }
 
 .btn-title {
@@ -50,6 +65,14 @@ h3 {
   color: white;
   box-shadow: 0px 0px 20px 5px white;
   margin-left: 310px;
+}
+
+.about-me {
+  background: var(--secondary-gradient);
+  color: var(--secondary-color);
+  margin: 40px 35px;
+  border: 8px solid black;
+  height: 300px;
 }
 
 @media (max-width: 1200px) {

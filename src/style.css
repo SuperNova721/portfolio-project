@@ -30,18 +30,6 @@ h1 {
   font-size: 80px;
 }
 
-h2 {
-  font-family: Quicksand;
-  font-weight: 500;
-  margin-bottom: 0;
-  text-decoration: none;
-}
-p {
-  font-family: Quicksand;
-  font-size: 30px;
-  margin-bottom: 0;
-}
-
 h3 {
   font-family: Quicksand;
   font-weight: 300;
@@ -67,12 +55,17 @@ h3 {
   margin-left: 310px;
 }
 
-.about-me {
+.content-links {
   background: var(--secondary-gradient);
   color: var(--secondary-color);
   margin: 40px 35px;
   border: 8px solid black;
-  height: 300px;
+  height: 250px;
+}
+
+.link-titles {
+  margin: 150px 0 0 20px;
+  font-size: 60px;
 }
 
 @media (max-width: 1200px) {

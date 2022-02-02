@@ -37,9 +37,21 @@ h3 {
   margin-top: 100px;
   color: rgb(35, 80, 90);
   background: var(--main-gradient);
+  border-bottom: 20px solid black;
 }
 
 .title-content {
   margin-top: 73px;
   color: aliceblue;
+}
+
+.btn-title {
+  background: black;
+  color: white;
+  box-shadow: 0px 0px 20px 5px white;
+  margin-left: 310px;
+}
+
+@media (max-width: 1200px) {
+  max-width: 1200px;
 }

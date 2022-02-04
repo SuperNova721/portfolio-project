@@ -1,5 +1,5 @@
 /*font-family: 'Poiret One', cursive;
-font-family: 'Quicksand', sans-serif;*/
+font-family: 'Quicksand', sans-serif, font-weight:300;*/
 :root {
   --main-gradient: linear-gradient(
     to left,
@@ -115,12 +115,13 @@ h3 {
 }
 
 .about-section {
-  margin-top: 40px;
+  margin-top: 0px;
   color: var(--primary-color);
   background: var(--main-gradient);
   padding-bottom: 20px;
   border-bottom: 20px solid black;
   display: flex;
+  height: 900px;
   text-align: center;
 }
 
@@ -131,17 +132,18 @@ p {
 }
 
 .about-section h1 {
-  font-size: 55px;
-  margin-top: 100px;
+  font-size: 48px;
+  margin-top: 50px;
 }
 
 .about-section h3 {
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .about-section p {
   text-align: left;
   padding-left: 15px;
+  line-height: 25px;
 }
 
 .btn-projects {
@@ -149,11 +151,12 @@ p {
   color: white;
   width: 175px;
   box-shadow: 0px 0px 20px 5px white;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .about-portrait-image {
   border-radius: 85px 5px;
+  margin-top: 80px;
   padding: 12px;
   border: 5px solid black;
   background-color: aliceblue;
@@ -227,7 +230,7 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  margin: 0 10px;
+  margin: 0px 10px;
   color: black;
   background-color: var(--secondary-color);
   padding: 10px 13px;
@@ -241,6 +244,12 @@ footer .social-links a:hover {
   color: aliceblue;
   background-color: rgb(115, 144, 153);
   transition: all 150ms ease-in-out;
+}
+
+footer .foot-note {
+  color: black;
+  font-family: Quicksand;
+  font-weight: 300px;
 }
 
 @media (max-width: 900px) {
@@ -316,10 +325,18 @@ footer .social-links a:hover {
     font-size: 10px;
   }
 
+  .about-section {
+    height: 1000px;
+  }
+
   .about-section h1 {
     font-size: 39px;
     margin-top: 50px;
     text-align: center;
+  }
+
+  .about-portrait-image {
+    margin-bottom: 30px;
   }
 
   .btn-projects {

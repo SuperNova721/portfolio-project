@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Holly</title>
+    <meta
+      name="description"
+      content="Holly Hadley is a Front-end Developer with almost 9 years teaching experience in early childhood education."
+    />
     <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
@@ -32,6 +36,25 @@
     <link rel="stylesheet" href="/src/styles.css" />
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <h1 class="d-none d-md-block">Holly Hadley</h1>
+        <ul>
+          <li>
+            <a href="/" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Holly">About</a>
+          </li>
+          <li>
+            <a href="/projects.html" title="Holly's Projects">Projects</a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Holly">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="about-section container">
       <div class="row">
         <div class="col-md-6">
@@ -57,16 +80,63 @@
             start my own business or coding. I value growth and keeping myself
             curious. I love to push myself to do hard things.
           </p>
-          <a class="btn btn-projects" href="#">View My Projects</a>
+          <a class="btn btn-projects" href="#" title="Project Page"
+            >View My Projects</a
+          >
         </div>
         <div class="col-md-6">
           <img
-            class="about-portrait-image img-fluid mt-4"
+            class="about-portrait-image img-fluid"
             src="/images/about-holly-image.jpeg"
             alt="Portriate of Holly"
+            title="Image of Holly"
           />
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box d-flex justify-content-between">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="collab-text text-muted">
+            Let's work together to create something AMAZING!
+          </p>
+        </div>
+        <div>
+          <a class="btn btn-title" href="contact.html" title="Contact Holly"
+            >Contact Me</a
+          >
+        </div>
+      </div>
+      <div>
+        <a
+          class="email-link"
+          href="mailto:supernova32121@gmail.com"
+          title="Email Holly"
+          >supernova32121@gmail.com</a
+        >
+      </div>
+      <div class="social-links mt-4">
+        <a
+          class="linkedin-logo"
+          href="https://www.linkedin.com/in/holly-hadley7"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/SuperNova721" title="GitHub Profile">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <p class="foot-note text-center mt-5">
+        ⭐ This project was coded by Holly Hadley, and is
+        <a
+          href="https://github.com/SuperNova721/portfolio-project.git"
+          target="_blank"
+          >open-sourced</a
+        >
+        .
+      </p>
+    </footer>
   </body>
 </html>

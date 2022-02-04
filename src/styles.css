@@ -64,6 +64,15 @@ h3 {
   height: 250px;
 }
 
+.about-me-link {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.about-me-link:hover {
+  color: goldenrod;
+}
+
 .link-titles {
   margin: 150px 0 0 20px;
   font-size: 60px;

@@ -15,6 +15,37 @@ font-family: 'Quicksand', sans-serif;*/
   --primary-color: rgb(35, 80, 90);
   --secondary-color: rgb(239, 248, 255);
 }
+
+.container h1 {
+  font-size: 30px;
+}
+
+nav {
+  padding: 15px 5px 5px 5px;
+}
+
+nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover,
+nav li.active a {
+  color: goldenrod;
+}
+
 .main-profile-picture {
   width: 275px;
   border-radius: 200px;
@@ -36,10 +67,11 @@ h3 {
 }
 
 .hero {
-  margin-top: 40px;
+  margin-top: 0px;
   color: var(--primary-color);
   background: var(--main-gradient);
   padding-bottom: 20px;
+  border-top: 5px solid black;
   border-bottom: 20px solid black;
 }
 
@@ -157,6 +189,12 @@ p {
 }
 
 @media (max-width: 768px) {
+  nav ul {
+    display: block;
+    margin: auto;
+    padding-right: 15px;
+  }
+
   .content-links {
     margin: 25px 25px;
     height: 150px;

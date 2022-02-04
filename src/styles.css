@@ -185,6 +185,32 @@ footer {
   margin-bottom: 70px;
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  margin-bottom: 50px;
+  padding: 20px;
+}
+
+footer h3 {
+  color: black;
+  font-size: 50px;
+}
+
+footer .collab-text {
+  color: black;
+  padding-left: 90px;
+}
+
+footer .btn {
+  background: var(--primary-color);
+  margin-top: 35px;
+  margin-right: 150px;
+}
+
+footer .btn:hover {
+  background-color: goldenrod;
+}
+
 footer .email-link {
   font-family: Quicksand;
   font-weight: 300;
@@ -306,5 +332,33 @@ footer .social-links a:hover {
     box-shadow: 0px 0px 10px 1px white;
     margin: 10px 0 0 25px;
     font-size: 10px;
+  }
+
+  footer .contact-box {
+    background-color: var(--secondary-color);
+    margin-bottom: 10px;
+    padding: 10px 5px;
+  }
+
+  footer h3 {
+    color: black;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+
+  footer .collab-text {
+    color: black;
+    padding-left: 10px;
+    font-size: 15px;
+  }
+
+  footer .btn {
+    background: var(--primary-color);
+    margin-top: 45px;
+    margin-right: 30px;
+    font-size: 20px;
+    width: 140px;
   }
 }

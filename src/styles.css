@@ -179,6 +179,44 @@ p {
   margin-left: 20px;
 }
 
+footer {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+footer .email-link {
+  font-family: Quicksand;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer .email-link:hover {
+  color: goldenrod;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a {
+  margin: 0 10px;
+  color: black;
+  background-color: var(--secondary-color);
+  padding: 10px 13px;
+  font-size: 35px;
+  text-decoration: none;
+  border-radius: 50%;
+  text-align: center;
+}
+
+footer .social-links a:hover {
+  color: aliceblue;
+  background-color: rgb(115, 144, 153);
+  transition: all 150ms ease-in-out;
+}
+
 @media (max-width: 900px) {
   .link-titles {
     text-align: left;
@@ -201,7 +239,7 @@ p {
   }
 
   .hero {
-    height: 245px;
+    height: 255px;
     column-count: 2;
     padding: 0px;
   }
@@ -241,7 +279,7 @@ p {
 
   h3 {
     font-size: 15px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
   }
 
   .btn-title {

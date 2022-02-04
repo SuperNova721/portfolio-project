@@ -69,6 +69,10 @@ h3 {
   font-size: 60px;
 }
 
+.main-link-images {
+  height: 234px;
+}
+
 .about-section {
   margin-top: 40px;
   color: var(--primary-color);
@@ -107,7 +111,7 @@ p {
   margin-top: 20px;
 }
 
-.about-image {
+.about-portrait-image {
   border-radius: 85px 5px;
   padding: 12px;
   border: 5px solid black;
